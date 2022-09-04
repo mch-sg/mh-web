@@ -11,7 +11,7 @@
 
 
 body {
-    background-color: #0d0d0d; /* #0d0d0d */
+    background-color: #020202;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -41,7 +41,7 @@ hr {
     text-decoration: none;
     transition: 0.3s;
 } .dim:hover {
-    color: #FFB17A;
+    color: #EE8869; /*  #FFB17A */
 } 
 
 .projects {
@@ -50,7 +50,7 @@ hr {
     font-weight:600;
     transition: 0.3s;
 } .projects:hover {
-    color: #FFB17A;
+    color: #EE8869;
 }
 
 .visit {
@@ -59,8 +59,18 @@ hr {
     text-decoration: none;
     transition: 0.3s;
 } .visit:hover {
-    color: #FFB17A;
+    color: #EE8869;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: #020202;
+    background: #EE8869;
+  }
+  
+  ::selection {
+    color: #020202;
+    background: #EE8869;
+  }
 
 
 
