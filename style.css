@@ -1,8 +1,5 @@
 /*  ROOT  */ 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Raleway:wght@300;400;500;600&display=swap');
-
-
 :root {
     --base-font-size: 17px;
     --base-line-height: 1.7;
@@ -23,12 +20,16 @@
     --dim: #FFFFFF44; // #00000041
 }
 
+.head {
+    color: white;
+}
+
 
 body {
     background-color: #000000;
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
     margin-top: 100px; /* 100px */
     margin-left: 100px;
@@ -98,17 +99,18 @@ hr {
 
 
 /* SCREEN OPTIMIZING */     /*   XSMALL   */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     body {
         margin-top: 8%;
         margin-left: 8%;
         margin-right: 8%;
-
+        padding: 10px;
+        font-size: 16px;
     }
 }
 
 /* SCREEN OPTIMIZING */     /*   SMALL   */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 868px) {
     body {
         margin-top: 8%;
         margin-left: 8%;
