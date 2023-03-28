@@ -12,13 +12,13 @@
   --xxlarge: "(min-width: 2560px)";
   --retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
-  --add: #5f6773;
+  --add: #9b9b9b;
   --sekclr: #ddddddde;
   --hclr: #b392ac;
   --minclr: #0b0b0d; // #141618 // #d1b3c4 // #0B0B0D // #101113
   --primclr: #735d78; // #e0d2ea
   --bclr: #0000006f;
-  --b: #000000;
+  --b: #111111;
   --dim: #ffffff44; // #00000041
 }
 
@@ -27,8 +27,8 @@
 }
 
 body {
-  background-color: #000000;
-  color: #e1dfdf;
+  background-color: var(--b);
+  color: #cfcfcf;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -69,7 +69,7 @@ hr {
 }
 
 .visit {
-  color: #a6a6a6;
+  color: #6a6a6a;
   font-weight: normal;
   text-decoration: none;
   /* transition: 0.2s; */
@@ -80,19 +80,33 @@ hr {
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: #5f6773;
-  background: #000000;
+  color: #b392ac;
+  background: #979797;
 }
 
 ::selection {
-  color: #5f6773;
-  background: #000000;
+  color: #b392ac; // 748cab #5f6773
+  background: #979797;
 }
 
 .head {
-  color: #e1dfdf;
-  font-weight: 400;
+  color: #ffffff;
+  font-weight: 300;
   font-size: 18px;
+}
+
+.scale {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  width: 900px;
+}
+
+.m {
+  margin-left: 25px;
+}
+.mt {
+  margin-top: 25px;
 }
 
 /* 
@@ -119,6 +133,16 @@ hr {
     color: #e1dfdf;
     font-weight: 400;
     font-size: 15px;
+  }
+
+  .scale {
+    display: block;
+    flex-direction: row;
+    margin: 0px;
+    width: 900px;
+  }
+  .m {
+    margin-left: 0px;
   }
 }
 
