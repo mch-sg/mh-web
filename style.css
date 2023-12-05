@@ -140,6 +140,7 @@ hr {
     flex-direction: row;
     margin: 0px;
     width: 900px;
+    font-size: 15px;
   }
   .m {
     margin-left: 0px;
